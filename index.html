@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine Ecology Gallery</title>
+    
+    <!-- Lightbox2 CSS -->
+    <link rel="stylesheet" href="dist/css/lightbox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="blog-content">
+        <article>
+            <h2>Alpine Flora & Fauna</h2>
+            <img src="images/alps.jpg" alt="Swiss Alps Panorama" class="featured-image">
+            
+            <div class="ecosystem-section">
+                <h3>High Altitude Adaptations</h3>
+                <p>Mountain ecosystems showcase remarkable survival strategies shaped by extreme conditions. 
+                    Flora like the edelweiss grow dense woolly hairs to insulate against freezing temperatures and UV radiation, 
+                    while cushion plants form compact mounds to resist wind and retain heat. Animals such as snow leopards develop thick fur and enlarged nasal cavities to breathe thin air, 
+                    and marmots hibernate for months to conserve energy. Lichens cling to barren rocks, pioneering soil formation. Trees adopt stunted "krummholz" forms to withstand icy winds. 
+                    Microbes thrive in glacial meltwater through antifreeze proteins. These adaptations highlight nature’s ingenuity in balancing harsh climates with biodiversity hotspots....</p>
+            </div>
+
+            <div class="ecosystem-section">
+                <h3>Edelweiss: The Alpine Icon</h3>
+                <img src="images/purple-flower.jpg" alt="Alpine Flower" class="ecosystem-image">
+                <p>The rare Leontopodium nivale (Edelweiss), an iconic alpine flower,
+                     thrives in rocky crevices at elevations above 1,800 meters. Its woolly white bracts, 
+                     resembling star-shaped petals, evolved to reflect harsh UV radiation and trap moisture in arid, 
+                     windswept environments. This hardy perennial clings to limestone cliffs and nutrient-poor soils, 
+                     surviving temperatures as low as -20°C. Revered in Alpine folklore as a symbol of courage, it blooms briefly in summer, 
+                     attracting specialized pollinators like alpine butterflies. Conservation efforts protect this "Queen of the Alps" from overharvesting, 
+                     as its slow growth and fragile habitat make it vulnerable to climate change and human encroachment.</p>
+            </div>
+        </article>
+
+        <!-- Gallery Section -->
+        <section id="gallery">
+            <h2>Mountain Ecology Gallery</h2>
+            <div class="gallery">
+                <a href="images/mountain.jpg" data-lightbox="alpine" data-title="Himalayan Peaks at Dawn">
+                    <img src="images/mountain.jpg" alt="Snow-capped Mountains" 
+                         tabindex="0" role="button" aria-label="View Himalayan peaks">
+                         <!-- Alpine Panorama -->
+                 <a href="images/alps.jpg" data-lightbox="alpine" data-title="Swiss Alpine Panorama">
+                     <img src="images/alps.jpg" alt="Alpine Mountain Range" 
+                         tabindex="0" role="button" aria-label="View Alpine panorama">
+</a>
+
+<!-- Mountain Peaks -->
+                 <a href="images/mountain.jpg" data-lightbox="alpine" data-title="Himalayan Peaks at Dawn">
+                     <img src="images/mountain.jpg" alt="Snow-capped Mountains" 
+                         tabindex="0" role="button" aria-label="View Himalayan peaks">
+</a>
+
+<!-- Mountain Ecosystem -->
+                 <a href="images/mountains_pana.webp" data-lightbox="alpine" data-title="Alpine Wildlife Habitat">
+                     <img src="images/mountains_pana.webp" alt="Mountain Ecosystem Illustration" 
+                       tabindex="0" role="button" aria-label="View ecosystem diagram">
+</a>
+
+<!-- Forest Fungi -->
+                 <a href="images/mushroom.webp" data-lightbox="alpine" data-title="Alpine Fungal Diversity">
+                     <img src="images/mushroom.webp" alt="Mountain Mushrooms Close-up" 
+                         tabindex="0" role="button" aria-label="View mountain fungi">
+</a>
+
+<!-- Alpine Flora -->
+                 <a href="images/purple-flower.jpg" data-lightbox="alpine" data-title="Edelweiss Bloom">
+                       <img src="images/purple-flower.jpg" alt="Alpine Flower Species" 
+                          tabindex="0" role="button" aria-label="View alpine flower">
+</a>
+
+<!-- Tea Plantations -->
+                 <a href="images/tea_garden.jpg" data-lightbox="alpine" data-title="Mountain Tea Terraces">
+                      <img src="images/tea_garden.jpg" alt="Terraced Tea Gardens" 
+                         tabindex="0" role="button" aria-label="View tea plantations">
+</a>
+
+<!-- Coniferous Forest -->
+                 <a href="images/trees.jpg" data-lightbox="alpine" data-title="Alpine Pine Forest">
+                     <img src="images/trees.jpg" alt="Pine Trees in Mountain" 
+                         tabindex="0" role="button" aria-label="View pine forest">
+</a>
+
+<!-- Mountain Valley -->
+                 <a href="images/valley.jpg" data-lightbox="alpine" data-title="Glacial Valley Formation">
+                      <img src="images/valley.jpg" alt="U-shaped Glacial Valley" 
+                           tabindex="0" role="button" aria-label="View glacial valley">
+
+                <!-- Repeat for other images with aria-label -->
+            </div>
+        </section>
+    </main>
+
+    <nav class="gallery-nav">
+        <a href="index.html" class="home-link">Back to Home</a>
+    </nav>
+
+    <!-- Scripts -->
+    <script src="dist/js/lightbox-plus-jquery.js"></script>
+    <script src="java/script.js"></script>
+</body>
+</html>
